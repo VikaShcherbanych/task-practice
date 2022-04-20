@@ -20,7 +20,7 @@ console.log(flat(array))
 
 const flat2 = (arr, deep) => {
     const flattenArray = []
-    arr.forEach(element => {
+    arr.filter(element => {
         Array.isArray(element) 
         ? 
         flattenArray.push(...flat(element)) 
