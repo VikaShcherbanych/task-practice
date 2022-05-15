@@ -7,7 +7,7 @@ class User {
      console.log('this sayHi', this)
    }
 
-   sayBye (params) {
+   sayBye () {
        console.log('this sayBye', this)
    }
 
@@ -16,7 +16,7 @@ class User {
    }
 }
 
-const user = new User()
+const user = new User('Ann', 'Wood')
 
 const sayHi = user.sayHi;
 user.sayBye();
