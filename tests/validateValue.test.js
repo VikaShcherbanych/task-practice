@@ -20,4 +20,7 @@ describe('validateValue', () => {
     test('Пограничное значение сверху', () => {
         expect(validateValue(100)).toBe(true);
     })
+    test('Пограничное значение сверху', () => {
+        expect(validateValue(100)).toBe(true);
+    })
 })
